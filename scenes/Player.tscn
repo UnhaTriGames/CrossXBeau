@@ -1,11 +1,10 @@
-[gd_scene load_steps=23 format=3 uid="uid://0skp6vunlpi7"]
+[gd_scene load_steps=24 format=3 uid="uid://0skp6vunlpi7"]
 
 [ext_resource type="Script" path="res://scenes/Player.cs" id="1_ouwqy"]
 [ext_resource type="PackedScene" uid="uid://br7d1smn561n3" path="res://scenes/components/VelocityComponent.tscn" id="2_pxut6"]
+[ext_resource type="PackedScene" uid="uid://xj8vymcppw7a" path="res://scenes/Arrow.tscn" id="2_u3v6l"]
 [ext_resource type="PackedScene" uid="uid://dkicx02fj7poc" path="res://scenes/components/AnimatorComponent.tscn" id="3_jmue0"]
 [ext_resource type="Texture2D" uid="uid://d03k31xx561p7" path="res://assets/sprites/Beau-Sheet.png" id="4_w8u75"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_qb4kc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gkxy7"]
 atlas = ExtResource("4_w8u75")
@@ -142,13 +141,16 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("velocityComponent", "animatorComponent")]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qb4kc"]
+size = Vector2(14, 20)
+
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("velocityComponent", "animatorComponent", "firePoint")]
 script = ExtResource("1_ouwqy")
 velocityComponent = NodePath("VelocityComponent")
 animatorComponent = NodePath("AnimatorComponent")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_qb4kc")
+projectile = ExtResource("2_u3v6l")
+firePoint = NodePath("Marker2D")
+firePointRadius = 15.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(3, 3)
@@ -161,7 +163,14 @@ editor_draw_limits = true
 sprite_frames = SubResource("SpriteFrames_fedpt")
 animation = &"up"
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
+shape = SubResource("RectangleShape2D_qb4kc")
+
 [node name="VelocityComponent" parent="." instance=ExtResource("2_pxut6")]
 
 [node name="AnimatorComponent" parent="." node_paths=PackedStringArray("animatedSprite2D") instance=ExtResource("3_jmue0")]
 animatedSprite2D = NodePath("../AnimatedSprite2D")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(8, 0)

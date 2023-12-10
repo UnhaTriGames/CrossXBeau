@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://xj8vymcppw7a"]
+
+[ext_resource type="PackedScene" uid="uid://br7d1smn561n3" path="res://scenes/components/VelocityComponent.tscn" id="1_7jwjo"]
+[ext_resource type="Script" path="res://scenes/Projectile.cs" id="1_kfygn"]
+[ext_resource type="Texture2D" uid="uid://0634wq2b117i" path="res://assets/sprites/Arrow.png" id="2_fmp6i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ywpc"]
+size = Vector2(9, 3)
+
+[node name="Arrow" type="CharacterBody2D" node_paths=PackedStringArray("velocityComponent")]
+script = ExtResource("1_kfygn")
+velocityComponent = NodePath("VelocityComponent")
+
+[node name="VelocityComponent" parent="." instance=ExtResource("1_7jwjo")]
+maxSpeed = 200.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(7, 0)
+texture = ExtResource("2_fmp6i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(9.5, 0.5)
+shape = SubResource("RectangleShape2D_7ywpc")
