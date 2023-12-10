@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "g3eUCs5xhaWrv5SSF4B5CwcLlwvGQCzfGi4sBnSX0g3iqx/jUhDTVhNzQWve1KB30+gk3UHzCyok2c5suyW8tQ==",
+  "success": true,
+  "projectFilePath": "C:\\CodingRepos\\GODOT\\CrossXBeau\\Cross X Beau.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adam\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

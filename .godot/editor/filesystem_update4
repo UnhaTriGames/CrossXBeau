@@ -1,1 +1,7 @@
 res://scenes/Player.tscn
+res://scenes/components/VelocityComponent.tscn
+res://scenes/World.tscn
+res://scenes/components/VelocityComponent.cs
+res://scenes/Player.cs
+res://scenes/components/AnimatorComponent.tscn
+res://scenes/components/AnimatorComponent.cs
