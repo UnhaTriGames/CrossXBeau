@@ -15,3 +15,20 @@ C:\CodingRepos\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\refint\Cross X Beau.d
 C:\CodingRepos\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.pdb
 C:\CodingRepos\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.genruntimeconfig.cache
 C:\CodingRepos\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\ref\Cross X Beau.dll
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\bin\Debug\Cross X Beau.deps.json
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\bin\Debug\Cross X Beau.runtimeconfig.json
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\bin\Debug\Cross X Beau.dll
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\bin\Debug\Cross X Beau.pdb
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.csproj.AssemblyReference.cache
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.AssemblyInfoInputs.cache
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.AssemblyInfo.cs
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.csproj.CoreCompileInputs.cache
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.csproj.CopyComplete
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.dll
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\refint\Cross X Beau.dll
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.pdb
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\Cross X Beau.genruntimeconfig.cache
+C:\REPOS\GODOT\CrossXBeau\.godot\mono\temp\obj\Debug\ref\Cross X Beau.dll
