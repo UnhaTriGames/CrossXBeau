@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PWN537v1GU16FGbKzSEddF4PRmXyWI3xFD4Yg+Di+78p/eReiXWRAh4Rk3Y+yuIp2AbSoaXDJR/laycU0/E5jw==",
+  "dgSpecHash": "g3eUCs5xhaWrv5SSF4B5CwcLlwvGQCzfGi4sBnSX0g3iqx/jUhDTVhNzQWve1KB30+gk3UHzCyok2c5suyW8tQ==",
   "success": true,
-  "projectFilePath": "C:\\REPOS\\GODOT\\CrossXBeau\\Cross X Beau.csproj",
+  "projectFilePath": "C:\\CodingRepos\\GODOT\\CrossXBeau\\Cross X Beau.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\akach\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
-    "C:\\Users\\akach\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
-    "C:\\Users\\akach\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+    "C:\\Users\\Adam\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
   ],
   "logs": []
 }

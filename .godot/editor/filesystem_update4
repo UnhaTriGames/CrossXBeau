@@ -1,11 +1,7 @@
-res://scenes/World.tscn
-res://scenes/Player.tscn
-res://scenes/components/VelocityComponent.tscn
-res://scenes/components/AnimatorComponent.tscn
-res://scenes/Arrow.tscn
 res://scenes/components/AnimatorComponent.cs
+res://scenes/components/HealthComponent.cs
 res://scenes/components/VelocityComponent.cs
+res://scenes/Enemy.cs
 res://scenes/Player.cs
 res://scenes/Projectile.cs
-res://scenes/Enemy.tscn
-res://scenes/Enemy.cs
+res://scenes/components/HealthComponent.tscn

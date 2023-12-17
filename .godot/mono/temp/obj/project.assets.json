@@ -88,24 +88,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\akach\\.nuget\\packages\\": {}
+    "C:\\Users\\Adam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REPOS\\GODOT\\CrossXBeau\\Cross X Beau.csproj",
+      "projectUniqueName": "C:\\CodingRepos\\GODOT\\CrossXBeau\\Cross X Beau.csproj",
       "projectName": "Cross X Beau",
-      "projectPath": "C:\\REPOS\\GODOT\\CrossXBeau\\Cross X Beau.csproj",
-      "packagesPath": "C:\\Users\\akach\\.nuget\\packages\\",
-      "outputPath": "C:\\REPOS\\GODOT\\CrossXBeau\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "C:\\CodingRepos\\GODOT\\CrossXBeau\\Cross X Beau.csproj",
+      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+      "outputPath": "C:\\CodingRepos\\GODOT\\CrossXBeau\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\akach\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -153,7 +161,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
