@@ -1,6 +1,5 @@
 using Godot;
 using System;
-using System.Security.AccessControl;
 
 public partial class Player : CharacterBody2D
 {
